@@ -6,4 +6,3 @@ checks:
         duplication: true
 filter:
     excluded_paths: [tests/*,demos/*,resources/*,library/*,vendor/*]
-
