@@ -4,8 +4,8 @@ php:
   - 5.3
   - 5.4
   - 5.5
-  - 5.6
-  - hhvm
+#  - 5.6
+#  - hhvm
 
 install:
   - sudo apt-get install parallel
@@ -31,8 +31,8 @@ notifications:
   irc: "irc.freenode.org#zftalk.dev"
   email: false
 
-matrix:
-  fast_finish: true
-  allow_failures:
-    - php: hhvm
-    - php: 5.6
+#matrix:
+#  fast_finish: true
+#  allow_failures:
+#    - php: hhvm
+#    - php: 5.6
